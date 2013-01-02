@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*  
+Coded by: Pedro Marques
+Description: My Portfolio.
+*/
+/* fonts */
+@font-face {
+    font-family: regular;
+    src: url(fonts/reg.otf);
+  }
+@font-face {
+    font-family: thin;
+    src: url(fonts/thin.otf);
+	}
+@font-face {
+    font-family: bold;
+    src: url(fonts/bold.otf);
+	}
+/*fonts*/
+
+/* global style */
+
+*{margin: 0px; padding: 0px;}
+.clear{clear: both;
+}
+
+strong {
+	font-weight:bold;	
+}
+span {
+	color:#545454;	
+}
+p {
+	font-size:13px;	
+	margin-top:10px;
+}
+
+a {
+	text-decoration:none;
+	color:#FFF;	
+}
+a:hover {
+	color:#444444;	
+}
+
+/*global style */
+
+
